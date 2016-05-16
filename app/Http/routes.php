@@ -13,6 +13,7 @@ Route::group(['prefix'=>'album','where'=>['id'=>'[0-9]+']],function()
 
 
 
+
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
